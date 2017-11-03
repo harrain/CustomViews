@@ -4,7 +4,7 @@
     - [饼状图](https://github.com/harrain/CustomViews/tree/master/leafloading)
 
 
-    <img src = "/screenshot/pieview.jpg" width = "700" height="600" />
+    <img src = "/screenshot/pieview.jpg" width = "500" height="800" />
 
     - [叶子动态加载横向进度条](https://github.com/harrain/CustomViews/tree/master/pieview)
 
