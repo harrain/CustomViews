@@ -1,15 +1,19 @@
 ### 说明
 
 - 收集的一些自定义view
-    - 饼状图
-    ![饼状图](/screenshot/pieview.jpg "饼状图示意")
-    - 叶子动态加载横向进度条
+    - [饼状图](https://github.com/harrain/CustomViews/tree/master/leafloading)
+
+
+    <img src = "/screenshot/pieview.jpg" width = "700" height="600" />
+
+    - [叶子动态加载横向进度条](https://github.com/harrain/CustomViews/tree/master/pieview)
+
     ![叶子进度条](/screenshot/leaf_loading_readme.gif)
 
+不同的自定义view做成了library，可clone代码运行观看效果
 
 
-
-### 协议 Apache License V2.0
+### 协议 Apache-2.0
 
 Copyright {Stephen Ren}
 
