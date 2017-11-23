@@ -10,7 +10,7 @@
 
     ![叶子进度条](/screenshot/leaf_loading_readme.gif)
 
-    - [嵌套滚动机制NestedScroll]() --- [参考博客](http://blog.csdn.net/al4fun/article/details/53889075)
+    - [嵌套滚动机制NestedScroll](https://github.com/harrain/CustomViews/tree/master/mynestedscroll) --- [参考博客](http://blog.csdn.net/al4fun/article/details/53889075)
 
     ![MyNestedScroll](/screenshot/MyNestedScroll.gif)
 
