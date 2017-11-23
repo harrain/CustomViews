@@ -16,7 +16,7 @@
 
 不同的自定义view做成了library，可clone代码运行观看效果
 
-**如果想要下载单个module，可以参考[这篇博客](http://www.jianshu.com/p/74a0441ed9b7)**
+**如果想要下载单个module，可以参考这篇博客 [如何在github上下载单个文件夹？用git就可以呀](http://www.jianshu.com/p/74a0441ed9b7)**
 
 ### 协议 Apache-2.0
 
