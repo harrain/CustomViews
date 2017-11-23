@@ -12,6 +12,7 @@ import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.example.mynestedscroll.MyNestedScrollActivity;
 import com.example.pieview.PieActivity;
 import com.gastudio.leafloading.LeafLoadingActivity;
 
@@ -45,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
         mList.add(item0);
         SampleItem item1 = new SampleItem("叶子曲线loading",new Intent(this, LeafLoadingActivity.class));
         mList.add(item1);
+        SampleItem nestedScroll = new SampleItem("嵌套滚动NestedScroll机制",new Intent(this,MyNestedScrollActivity.class));
         adapter.notifyDataSetChanged();
     }
 
