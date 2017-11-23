@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.mynestedscroll.MyNestedScrollParent
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="@string/topStr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.example.mynestedscroll.MyNestedScrollChild
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/contenttv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.example.mynestedscroll.MyNestedScrollChild>
+
+</com.example.mynestedscroll.MyNestedScrollParent>
