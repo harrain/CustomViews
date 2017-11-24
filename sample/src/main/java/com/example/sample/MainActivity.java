@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
         SampleItem item1 = new SampleItem("叶子曲线loading",new Intent(this, LeafLoadingActivity.class));
         mList.add(item1);
         SampleItem nestedScroll = new SampleItem("嵌套滚动NestedScroll机制",new Intent(this,MyNestedScrollActivity.class));
+        mList.add(nestedScroll);
         adapter.notifyDataSetChanged();
     }
 

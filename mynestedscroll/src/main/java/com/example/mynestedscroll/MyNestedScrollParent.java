@@ -69,9 +69,11 @@ public class MyNestedScrollParent extends LinearLayout implements NestedScrollin
     /** 嵌套滚动具体条件，parent先于滚动条件*/
     @Override
     public void onNestedPreScroll(View target, int dx, int dy, int[] consumed) {
+        Log.e(tag,"[onNestedPreScroll]  dy___"+dy);
+        // 下拉上划dy的值正负要实际调试
         /** 先于child滚动，即parent滚动，child的getScrollY不变*/
         if (showImg(dy) || hideImg(dy)){
-            Log.e(tag,"[onNestedPreScroll]  dy___"+dy);
+
             /** 确定显示和隐藏图片的条件，即上拉距离<imggeview高度，滚动隐藏；下拉child滚完再parent滚*/
             scrollBy(0,-dy);
             consumed[1] = dy;//告诉child我消费了多少
