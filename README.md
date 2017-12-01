@@ -14,6 +14,10 @@
 
     ![MyNestedScroll](/screenshot/MyNestedScroll.gif)
 
+    - [自定义Behavior实现头像简介与toolbar联动](https://github.com/harrain/CustomViews/tree/master/avatarbehavior) --- 不大懂Behavior的童鞋看[这篇博客](http://www.jianshu.com/p/82d18b0d18f4)
+
+    ![AvatarBehavior](/screenshot/avatarBehavior.gif)
+
 不同的自定义view做成了library，可clone代码运行观看效果
 
 **如果想要下载单个module，可以参考这篇博客 [如何在github上下载单个文件夹？用git就可以呀](http://www.jianshu.com/p/74a0441ed9b7)**
