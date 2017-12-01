@@ -1,1 +1,1 @@
-include ':pieview', ':sample', ':leafloading', ':mynestedscroll'
+include ':pieview', ':sample', ':leafloading', ':mynestedscroll', ':avatarbehavior'

@@ -4,8 +4,10 @@
 
     <application android:allowBackup="true"
         android:supportsRtl="true" android:theme="@style/AppTheme">
-        <activity android:name=".MyNestedScrollActivity"
-            android:label="MyNestedScrollActivity">
+        <activity
+            android:name=".MyNestedScrollActivity"
+            android:label="MyNestedScrollActivity"
+            android:screenOrientation="portrait">
             <!--不能加主activity的intentfilter，它会在桌面多给你放几个快捷方式-->
         </activity>
     </application>
