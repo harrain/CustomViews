@@ -11,19 +11,19 @@ import android.view.animation.AlphaAnimation;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity implements AppBarLayout.OnOffsetChangedListener {
+public class AvatarProfileActivity extends AppCompatActivity implements AppBarLayout.OnOffsetChangedListener {
 
     private Toolbar toolbar;
     private LinearLayout mTitleContainer;
     private TextView mTitleTv;
     private boolean mIsToolbarTitleVisible = true;
     private boolean mIsTitleContainerVisible = true;
-    private String tag = "MainActivity";
+    private String tag = "AvatarProfileActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_avatar);
 
 
         AppBarLayout appBarLayout = (AppBarLayout) findViewById(R.id.main_appbar);
@@ -33,12 +33,13 @@ public class MainActivity extends AppCompatActivity implements AppBarLayout.OnOf
         mTitleTv = (TextView) findViewById(R.id.main_textview_title);
 
         appBarLayout.addOnOffsetChangedListener(this);
-        toolbar.inflateMenu(R.menu.main);
+        /** 多模块、多library开发，凡是在R里面的名字都必须是独一无二的，最好以类型-模块-名称 格式命名，否则编译器根本检查不出来问题 */
+        toolbar.inflateMenu(R.menu.menu_avatarbehavior_main);
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.main,menu);
+        getMenuInflater().inflate(R.menu.menu_avatarbehavior_main,menu);
         return true;
     }
 

@@ -12,6 +12,7 @@ import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.example.avatarbehavior.AvatarProfileActivity;
 import com.example.mynestedscroll.MyNestedScrollActivity;
 import com.example.pieview.PieActivity;
 import com.gastudio.leafloading.LeafLoadingActivity;
@@ -48,6 +49,8 @@ public class MainActivity extends AppCompatActivity {
         mList.add(item1);
         SampleItem nestedScroll = new SampleItem("嵌套滚动NestedScroll机制",new Intent(this,MyNestedScrollActivity.class));
         mList.add(nestedScroll);
+        SampleItem avatarBehavior = new SampleItem("自定义Behavior实现头像简介与toolbar联动",new Intent(this, AvatarProfileActivity.class));
+        mList.add(avatarBehavior);
         adapter.notifyDataSetChanged();
     }
 
