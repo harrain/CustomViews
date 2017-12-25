@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bezier.ThreeBezierShowActivity">
+
+    <com.example.bezier.ThreeBezierView
+        android:id="@+id/threebv"
+        android:layout_width="match_parent"
+        android:layout_height="400dp" />
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:orientation="horizontal"
+        android:layout_marginBottom="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/cb1"
+            android:checked="true"
+            android:text="控制点1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RadioButton
+            android:id="@+id/cb2"
+            android:layout_marginStart="20dp"
+            android:checked="false"
+            android:text="控制点2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RadioGroup>
+</RelativeLayout>
