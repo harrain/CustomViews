@@ -10,8 +10,6 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 
-import com.example.matrix.s.matrix.R;
-
 
 /**
  * Created by net on 2018/1/8.

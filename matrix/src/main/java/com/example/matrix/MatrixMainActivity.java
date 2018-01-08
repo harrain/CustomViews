@@ -4,8 +4,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.RadioGroup;
 
-import com.example.matrix.s.matrix.R;
-
 
 public class MatrixMainActivity extends AppCompatActivity {
 
