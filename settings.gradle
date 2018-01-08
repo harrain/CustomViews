@@ -1,1 +1,1 @@
-include ':pieview', ':sample', ':leafloading', ':mynestedscroll', ':avatarbehavior', ':bezier', ':huazhewan', ':multitouch'
+include ':pieview', ':sample', ':leafloading', ':mynestedscroll', ':avatarbehavior', ':bezier', ':huazhewan', ':multitouch', ':matrix'
