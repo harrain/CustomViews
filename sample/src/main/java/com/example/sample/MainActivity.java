@@ -13,6 +13,10 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.example.avatarbehavior.AvatarProfileActivity;
+import com.example.bezier.BezierMainActivity;
+import com.example.huazhewan.PlayActivity;
+import com.example.matrix.MatrixMainActivity;
+import com.example.multitouch.MultiTouchMainActivity;
 import com.example.mynestedscroll.MyNestedScrollActivity;
 import com.example.pieview.PieActivity;
 import com.gastudio.leafloading.LeafLoadingActivity;
@@ -51,6 +55,14 @@ public class MainActivity extends AppCompatActivity {
         mList.add(nestedScroll);
         SampleItem avatarBehavior = new SampleItem("自定义Behavior实现头像简介与toolbar联动",new Intent(this, AvatarProfileActivity.class));
         mList.add(avatarBehavior);
+        SampleItem bezier = new SampleItem("贝塞尔曲线",new Intent(this, BezierMainActivity.class));
+        mList.add(bezier);
+        SampleItem matrix = new SampleItem("matrix setPolyToPoly用法",new Intent(this, MatrixMainActivity.class));
+        mList.add(matrix);
+        SampleItem huazhewan = new SampleItem("滑着玩 控件随手滑动，记录坐标和滑动时间",new Intent(this, PlayActivity.class));
+        mList.add(huazhewan);
+        SampleItem multitouch = new SampleItem("多点触控 滑动图片bug处理",new Intent(this, MultiTouchMainActivity.class));
+        mList.add(multitouch);
         adapter.notifyDataSetChanged();
     }
 

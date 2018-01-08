@@ -16,14 +16,9 @@ public class ThreeBezierShowActivity extends AppCompatActivity {
         rg.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup group, int checkedId) {
-                switch (checkedId){
-                    case R.id.cb1:
-                        tbv.setMode(true);
-                        break;
-                    case R.id.cb2:
-                        tbv.setMode(false);
-                        break;
-                }
+                if (checkedId == R.id.cb1) tbv.setMode(true);
+                else if (checkedId == R.id.cb2) tbv.setMode(false);
+
             }
         });
     }

@@ -42,7 +42,7 @@ public class PlayActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.play_activity_main);
         rl = (RelativeLayout) findViewById(R.id.rl);
         a = (A) findViewById(R.id.a);
         b = (B) findViewById(R.id.b);

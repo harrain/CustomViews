@@ -39,8 +39,7 @@ public class PicDragView extends View {
         mDeafultPaint = new Paint();
         // 调整图片大小
         BitmapFactory.Options options = new BitmapFactory.Options();
-        options.outWidth = 960/2;
-        options.outHeight = 800/2;
+        options.inSampleSize = 2;
 
         mBitmap = BitmapFactory.decodeResource(this.getResources(), R.drawable.two_element, options);
         mBitmapRectF = new RectF(0,0,mBitmap.getWidth(), mBitmap.getHeight());

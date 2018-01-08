@@ -1,4 +1,4 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 25
@@ -6,7 +6,6 @@ android {
 
 
     defaultConfig {
-        applicationId "com.example.multitouch"
         minSdkVersion 19
         targetSdkVersion 25
         versionCode 1
@@ -31,7 +30,7 @@ dependencies {
     compile 'com.android.support:recyclerview-v7:25.3.1'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     testCompile 'junit:junit:4.12'
-    
+
     compile 'com.zhy:base-rvadapter:3.0.3'
 
 }

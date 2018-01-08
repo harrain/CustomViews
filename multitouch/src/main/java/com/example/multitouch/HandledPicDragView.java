@@ -36,8 +36,7 @@ public class HandledPicDragView extends View {
         super(context, attrs);
 
         BitmapFactory.Options options = new BitmapFactory.Options();
-        options.outWidth = 480;
-        options.outHeight = 400;
+        options.inSampleSize = 2;//图片太大缩放
         bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.two_element, options);
 
         bitmapMatrix = new Matrix();

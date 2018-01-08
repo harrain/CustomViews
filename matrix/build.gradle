@@ -1,4 +1,4 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 25
@@ -6,7 +6,6 @@ android {
 
 
     defaultConfig {
-        applicationId "com.example.matrix"
         minSdkVersion 19
         targetSdkVersion 25
         versionCode 1

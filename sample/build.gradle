@@ -34,4 +34,8 @@ dependencies {
     compile project(':leafloading')
     compile project(':mynestedscroll')
     compile project(':avatarbehavior')
+    compile project(':bezier')
+    compile project(':huazhewan')
+    compile project(':matrix')
+    compile project(':multitouch')
 }
