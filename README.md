@@ -18,6 +18,25 @@
 
     ![AvatarBehavior](/screenshot/avatarBehavior.gif)
 
+    - [贝塞尔曲线](https://github.com/harrain/CustomViews/tree/master/bezier)
+
+    ![bezier2](/screenshot/beziertwo.gif)
+    ![bezier3](/screenshot/bezierthree.gif)
+
+    - [滑着玩 控件随手滑动，记录坐标和滑动时间](https://github.com/harrain/CustomViews/tree/master/huazhewan)
+
+    ![huazhewan](/screenshot/huazhewan.gif)
+
+    - [matrix setPolyToPoly用法](https://github.com/harrain/CustomViews/tree/master/matrix)
+
+    ![polytopoly](/screenshot/matrixpoly.gif)
+
+    - [多点触控 滑动图片bug处理](https://github.com/harrain/CustomViews/tree/master/multitouch)
+
+    ![multitouch](/screenshot/multitouch.gif)
+
+
+
 不同的自定义view做成了library，可clone代码运行观看效果
 
 **如果想要下载单个module，可以参考这篇博客 [如何在github上下载单个文件夹？用git就可以呀](http://www.jianshu.com/p/74a0441ed9b7)**
